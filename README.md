@@ -1,0 +1,3 @@
+# Image convolution in scipy
+
+
