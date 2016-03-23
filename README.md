@@ -18,3 +18,9 @@ There are examples of:
 
 * [https://en.wikipedia.org/wiki/Kernel_(image_processing)](https://en.wikipedia.org/wiki/Kernel_(image_processing))
 * [http://setosa.io/ev/image-kernels/](http://setosa.io/ev/image-kernels/)
+
+
+## Project available at:
+
+* you can run the code in the browser: [https://plon.io/explore/image-convolution/FG0XQkwTYYLjwZKvV](https://plon.io/explore/image-convolution/FG0XQkwTYYLjwZKvV)
+* source code at github: [https://github.com/ksirg/image_convolution_example](https://github.com/ksirg/image_convolution_example)
