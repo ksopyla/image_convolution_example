@@ -11,8 +11,8 @@ im = plt.imread('img/wikipedia_steam.png').astype(float)
 #im =im/255.   # normalise to 0-1, it's easier to work in float space
 plt.imshow(im)
 
-grey = hlp.rgb2gray(im)
-plt.imshow(grey, interpolation='none', cmap=plt.cm.gray)
+gray = hlp.rgb2gray(im)
+plt.imshow(gray, interpolation='none', cmap=plt.cm.gray)
 
 
 #sobel filter

@@ -22,5 +22,5 @@ There are examples of:
 
 ## Project available at:
 
-* Run the code at plon: [https://plon.io/explore/image-convolution/RX5YHn2lOiLuQWLzE](https://plon.io/explore/image-convolution/RX5YHn2lOiLuQWLzE)
+* Run the code at plon: [https://plon.io/explore/image-convolution-in-python/9qlBGgI1c2jdftkzu](https://plon.io/explore/image-convolution-in-python/9qlBGgI1c2jdftkzu)
 * Source code at github: [https://github.com/ksirg/image_convolution_example](https://github.com/ksirg/image_convolution_example)
