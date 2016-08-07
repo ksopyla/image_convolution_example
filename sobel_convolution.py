@@ -3,7 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import ndimage
 
-import helpers as hlp
+def rgb2gray(rgb):
+    '''convert rgb image to gray scale, it uses formula
+    gray_img = 0.299 R + 0.587 G + 0.114 B
+
+    '''
+
+    return np.dot(rgb[...,:3], [0.299, 0.587, 0.114])
 
 
 #read image
@@ -11,7 +17,7 @@ im = plt.imread('img/wikipedia_steam.png').astype(float)
 #im =im/255.   # normalise to 0-1, it's easier to work in float space
 plt.imshow(im)
 
-gray = hlp.rgb2gray(im)
+gray = rgb2gray(im)
 plt.imshow(gray, interpolation='none', cmap=plt.cm.gray)
 
 
